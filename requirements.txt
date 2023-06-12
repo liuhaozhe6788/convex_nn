@@ -1,0 +1,5 @@
+cvxpy
+matplotlib
+torchvision
+scikit-learn
+dill

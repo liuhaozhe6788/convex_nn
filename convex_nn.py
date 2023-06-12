@@ -8,8 +8,8 @@ def relu(x):
     return np.maximum(0,x)
 def drelu(x):
     return x>=0
-n=10
-d=3
+n=100
+d=64
 X=np.random.randn(n,d-1)
 X=np.append(X,np.ones((n,1)),axis=1)
 
